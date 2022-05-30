@@ -57,7 +57,7 @@ Start the http application server
 
 | 👤 Name | Github | Twitter | LinkedIn |
 |------|--------|---------|----------|
-|Waleed Amjad|[@caasper](https://github.com/caasperr)|[@developerwaleed](https://twitter.com/developerwaleed)||
+|Waleed Amjad|[@caasperr](https://github.com/caasperr)|[@developerwaleed](https://twitter.com/developerwaleed)|[@Waleed Amjad](https://www.linkedin.com/in/waleed-amjad-51930014a/)|
 
 
 
