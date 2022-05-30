@@ -1,5 +1,5 @@
-import { DateTime } from "./modules/luxon.js";
-import { BookStore } from "./modules/Book-Functions.js";
+import { DateTime } from './modules/luxon.js';
+import BookStore from './modules/Book-Functions.js';
 
 const bookstore = new BookStore();
 const form = document.forms[0];
@@ -16,19 +16,13 @@ function showSection() {
   });
 }
 
-// function displayDate() {
-//   const currentDate = new Date().toDateString();
-//   document.getElementById('timer').innerHTML = `${currentDate} ${new Date().toLocaleTimeString('en-US')}`;
-// }
-
 menuItems.forEach((menuItem) => menuItem.addEventListener('click', showSection));
 
 window.onload = () => { bookstore.displayBooks(); };
 
-setInterval( () => {
-    const currentDate = DateTime.now().setLocale('en-US').toLocaleString(DateTime.DATETIME_MED);
-    document.getElementById('timer').innerHTML = `${currentDate}`;
-  
+setInterval(() => {
+  const currentDate = DateTime.now().setLocale('en-US').toLocaleString(DateTime.DATETIME_MED);
+  document.getElementById('timer').innerHTML = `${currentDate}`;
 }, 1000);
 
 form.addEventListener('submit', (e) => {
