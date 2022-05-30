@@ -7,9 +7,10 @@ const menuItems = document.querySelectorAll('.nav-link');
 
 menuItems.forEach((menuItem) => menuItem.addEventListener('click', () => {
   const show = menuItem.getAttribute('data-section');
-  menuItems.forEach((menuItem) => { 
-    menuItem.classList.remove('active'); });
-    menuItem.classList.add('active');
+  menuItems.forEach((menuItem) => {
+    menuItem.classList.remove('active');
+  });
+  menuItem.classList.add('active');
   const toggleSections = document.querySelectorAll('.content-area');
   toggleSections.forEach((el) => {
     el.classList.add('d-none');
