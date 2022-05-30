@@ -1,5 +1,5 @@
-import { DateTime } from "./modules/luxon.js";
-import { BookStore } from "./modules/Book-Functions.js";
+import { DateTime } from './modules/luxon.js';
+import BookStore from './modules/Book-Functions.js';
 
 const bookstore = new BookStore();
 const form = document.forms[0];

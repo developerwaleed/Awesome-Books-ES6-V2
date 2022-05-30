@@ -1,7 +1,8 @@
-export class BookStore {
-    constructor() {
-        this.objBooks = JSON.parse(localStorage.getItem('bookstore')) || [];
-    }
+// Contains all the Functionalities of Books
+export default class BookStore {
+  constructor() {
+    this.objBooks = JSON.parse(localStorage.getItem('bookstore')) || [];
+  }
 
     addBook(title, author) {
         this.objBooks.push({ title, author });

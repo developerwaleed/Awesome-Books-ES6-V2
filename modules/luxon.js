@@ -1,4 +1,6 @@
 // these aren't really private, but nor are they really useful to document
+// LUXON LIBRARY
+
 
 /**
  * @private
