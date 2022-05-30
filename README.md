@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://caasperr.github.io/Awesome-Books-ES6/)
 
 
 ## Getting Started
@@ -31,9 +31,9 @@ To get a local copy up and running follow these simple example steps.
 Clone the repository and change the directory to portfolio
 
 ``` 
-  $ git clone git@github.com:Felix45/awsome-books.git
+  `$ git clone https://github.com/caasperr/Awesome-Books-ES6.git`
 
-  $ cd awsome-books
+  `$ cd Awesome-Books-ES6`
 
 ```
 
@@ -41,12 +41,12 @@ Clone the repository and change the directory to portfolio
 Install all project dependencies by running the command below
  
 ``` 
-  $ npm install
+ ` $ npm install`
 ```
 ### Usage
 Start the http application server
 ``` 
-  $ http-server
+  `$ http-server` or use if you have any other option for live server
 ```
 
 ### Deployment
